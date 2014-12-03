@@ -1,0 +1,84 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+h1 {
+	background-color:#666;
+	width: auto;
+	color:#0F0;
+	font-weight: bold;
+	font-size:70px;
+	text-align: center;
+	margin: 0px;
+	padding: 5px;
+	border: 3px;
+}
+h2 {
+	width: auto;
+	color:#0F0;
+	font-weight: bold;
+	font-size:30px;
+	margin: 0px;
+	padding: 5px;
+	border: 3px;
+}
+	
+	
+	
+	
+
+nav{
+	display: block;
+	float: left;
+	line-height: 35px;
+	list-style:none;
+	margin: 0 5px;
+	padding: 0 15px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+	-webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+	text-decoration:none;
+}
+nav li a{
+	
+	color: rgba(255, 255, 255, 0.8);
+	font: 18px "Myriad Pro","Lucida Grande",Helvetica,Arial,sans-serif;
+        font-weight: bold;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+	
+	}
+	
+nav a:hover{
+	
+	text-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+	
+	
+	}
+	
+li.dark a{
+	
+	color: rgba(0, 0, 0, 0.8);
+font-weight: bold;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.4);
+	
+	}
+.footer{
+	 position: relative;
+            /* Altura total del footer en px con valor negativo */
+            margin-top: -50px;
+            /* Altura del footer en px. Se han restado los 5px del margen
+               superior mas los 5px del margen inferior
+            */
+            height: 40px; 
+            padding:5px 0px;
+            clear: both;
+            background: #286af0;
+            text-align: center;
+            color: #fff;
+}
